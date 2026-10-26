@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problem with a FreeBSD port itself
+    url: https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages
+    about: Build failures, missing updates or other problems of a port belong in FreeBSD Bugzilla.
+  - name: Missing or wrong VuXML entry
+    url: https://www.vuxml.org/freebsd/
+    about: VuXML is maintained by the FreeBSD ports security team (ports-secteam@FreeBSD.org).
+  - name: How portstatus matches CVEs
+    url: https://portstatus.bsdproject.de/about
+    about: Statuses, sources and matching rules explained.

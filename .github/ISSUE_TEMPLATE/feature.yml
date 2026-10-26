@@ -1,0 +1,12 @@
+name: Idea for the site
+description: Something portstatus could show or do.
+title: "[idea] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should the site show or do, and what for?
+    validations:
+      required: true

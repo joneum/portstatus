@@ -1,0 +1,43 @@
+name: Wrong or missing data
+description: A CVE matched to the wrong port, a missing CVE, a wrong fixed version or status.
+title: "[data] "
+labels: ["data"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page
+      description: Address of the page on portstatus.bsdproject.de
+      placeholder: https://portstatus.bsdproject.de/www/nginx/
+    validations:
+      required: true
+  - type: input
+    id: port
+    attributes:
+      label: Port
+      placeholder: www/nginx
+  - type: input
+    id: cve
+    attributes:
+      label: CVE
+      placeholder: CVE-2026-12345
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: What the page shows
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What would be right
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Where the correct information can be checked (advisory, commit, release notes, VuXML entry)
+    validations:
+      required: true

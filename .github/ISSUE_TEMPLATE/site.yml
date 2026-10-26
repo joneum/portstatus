@@ -1,0 +1,24 @@
+name: Problem with the site
+description: A broken page, a wrong link, a display problem.
+title: "[site] "
+labels: ["site"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page
+      placeholder: https://portstatus.bsdproject.de/
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you saw instead
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and system
+      placeholder: Firefox 150 on FreeBSD 15.1
