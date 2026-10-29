@@ -6,6 +6,9 @@ the CVE and update status of the FreeBSD ports tree.
 This repository holds no source code. The site is developed elsewhere; this
 is where you report problems with it.
 
+What changed on the site, and when, is listed in its
+[changelog](https://portstatus.bsdproject.de/changelog).
+
 ## What belongs here
 
 - **Wrong or missing data**: a CVE matched to the wrong port, a CVE that is
